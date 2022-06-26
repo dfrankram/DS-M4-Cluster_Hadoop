@@ -30,6 +30,8 @@ root@hadoop-master:~#
 ./start-hadoop.sh
 ```
 
+ip:8088 , poner eso en el navegador para corroborar si inició Hadoop
+
 ##### 4. Un archivo txt de un libro
 
 ```
