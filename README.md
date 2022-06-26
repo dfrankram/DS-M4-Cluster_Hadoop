@@ -95,3 +95,21 @@ hdfs dfs -cat output/part-r-00000
 ```
 
 Inspirado en https://github.com/kiwenlau/hadoop-cluster-docker
+
+##### LIMPIEZA
+
+sudo docker stop hadoop-slave1
+
+sudo docker stop hadoop-slave2
+
+sudo docker stop hadoop-master
+
+sudo docker rm hadoop-slave1
+
+sudo docker rm hadoop-slave2
+
+sudo docker rm hadoop-master
+
+sudo docker network rm hadoop
+
+
